@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS</title>
+    <link rel="stylesheet" href="../src/css/output.css">
+</head>
+
+<body>
+
+    <div class="flex justify-between flex-row max-h-screen">
+        <div class="w-2/4 bg-white flex justify-center items-center">
+            <main class="w-4/6">
+                <div class="mb-6">
+                    <h1 class="font-medium text-3xl mb-2">Welcome Back</h1>
+                    <p class="text-gray-500">welcome back, please enter your details</p>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="font-medium text-md">Email</label>
+                    <input type="email" id="email"
+                        class="mt-2 px-4 py-2 rounded-md border shadow-md w-full  hover:border-sapwannn focus:border-sapwannn focus:outline-none focus:ring focus:ring-sky-200 transition duration-200"" 
+                        placeholder=" input your email">
+                </div>
+                <div class="mb-3">
+                    <label for="Password" class="font-medium text-md">Password</label>
+                    <input type="Password" id="Password"
+                        class="mt-2 px-4 py-2 rounded-md border shadow-md w-full hover:border-sapwannn focus:border-sapwannn focus:outline-none focus:ring focus:ring-sky-200 transition duration-200"
+                        placeholder="input your Password">
+                </div>
+                <div class="mb-5 flex justify-between">
+                    <div>
+                        <input type="checkbox" name="Value" id="check" class="accent-sapwannn">
+                        <label for="check">Remember for 30 days</label>
+                    </div>
+        
+                    <a href="#" class="text-sapwannn">Forgot Password?</a>
+                </div>
+                <div class="mb-3">
+                    <button class="w-full text-white bg-sapwannn px-6 py-3 text-sm font-medium transition duration-300 rounded-md hover:bg-white hover:text-sapwannn border hover:ring hover:ring-sky200">
+                        Sign In
+                    </button>
+                </div>
+
+                <div class="mb-3">
+                    <a href="#" class="w-full bg-white text-black px-6 py-3 font-medium transition duration-300 rounded-md flex items-center justify-center gap-2 hover:bg-red-200 hover:text-white border hover:ring hover:ring-red-200">
+                        <img src="../src/img/Google.png">
+                        <p class="font-medium">Sign In with Google</p>
+                    </a>
+                </div>
+
+                <div class="text-center">
+                    <p>Dont have account? <a href="#" class="text-sapwannn font-medium">Sign Up</a></p>
+                </div>
+            </main>
+        </div>
+
+        <div class="w-2/4">
+            <img src="../src/img/bg-right.png" alt="bg-right" class="object-cover max-h-screen w-full">
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
